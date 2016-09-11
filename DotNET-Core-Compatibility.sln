@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColourTranslator", "src\ColourTranslator\ColourTranslator.xproj", "{146C57A7-7C07-44DB-9338-3D8F8B56D053}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColourTranslations", "src\ColourTranslations\ColourTranslations.xproj", "{146C57A7-7C07-44DB-9338-3D8F8B56D053}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColourTranslations.UnitTests", "src\ColourTranslations.UnitTests\ColourTranslations.UnitTests.xproj", "{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +24,16 @@ Global
 		{146C57A7-7C07-44DB-9338-3D8F8B56D053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146C57A7-7C07-44DB-9338-3D8F8B56D053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146C57A7-7C07-44DB-9338-3D8F8B56D053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{146C57A7-7C07-44DB-9338-3D8F8B56D053} = {E3D8A53D-A98B-41EB-BED1-2DBA850F8AA0}
+		{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4} = {E3D8A53D-A98B-41EB-BED1-2DBA850F8AA0}
 	EndGlobalSection
 EndGlobal
