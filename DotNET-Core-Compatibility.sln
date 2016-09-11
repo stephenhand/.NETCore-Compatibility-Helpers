@@ -8,11 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA9C351E-D1F2-4FF5-A47F-D00D182682E8}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColourTranslations", "src\ColourTranslations\ColourTranslations.xproj", "{146C57A7-7C07-44DB-9338-3D8F8B56D053}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColorTranslations", "src\ColourTranslations\ColorTranslations.xproj", "{146C57A7-7C07-44DB-9338-3D8F8B56D053}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColourTranslations.UnitTests", "src\ColourTranslations.UnitTests\ColourTranslations.UnitTests.xproj", "{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ColorTranslations.UnitTests", "src\ColourTranslations.UnitTests\ColorTranslations.UnitTests.xproj", "{CA8E49A7-16F5-4766-ABF4-9ED7B8F2C3E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
