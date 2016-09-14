@@ -1,7 +1,7 @@
 @echo off
 
 
-set PACKAGE_VERSION=0.0.0.5
+set PACKAGE_VERSION=0.1.0.0
 
 if not exist publish mkdir publish   || exit /b 1
 

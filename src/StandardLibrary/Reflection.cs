@@ -2,7 +2,7 @@
 
 using System.Reflection;
 
-namespace BlueTreeSystems.BTMagma.Compatibility
+namespace Handy.DotNETCoreCompatibility.StandardLibrary
 {
     public class Reflection
     {

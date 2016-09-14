@@ -3,7 +3,7 @@
         <id>Handy.DotNETCore-Compatibility.ColorTranslations</id>
         <version>0.0.0</version>
         <authors>Stephen Hand</authors>
-        <description>This is a color translator to convert HTML color identifiers to ARGB values, a stand in for System.Drawing.ColorTranslator in the .NET framework</description>
+        <description>This is a color translator to convert HTML color identifiers to ARGB values, a stand in for System.Drawing.ColorTranslator in the .NET framework. https://github.com/stephenhand/.NETCore-Compatibility-Helpers</description>
         <tags>System.Drawing HTML Color Colour ColorTranslator System.Drawing.ColorTranslator</tags>
         <language>en-US</language>
     </metadata>

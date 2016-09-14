@@ -3,7 +3,7 @@
         <id>Handy.DotNETCore-Compatibility.StandardLibrary</id>
         <version>0.0.0</version>
         <authors>Stephen Hand</authors>
-        <description>This is a set of adapters and polyfills that will help developers write code that cross compiles on older versions of the .NET Framework (3.5+) and .NET Core</description>
+        <description>This is a set of adapters and polyfills that will help developers write code that cross compiles on older versions of the .NET Framework (3.5+) and .NET Core. https://github.com/stephenhand/.NETCore-Compatibility-Helpers</description>
         <tags>Standard Library netstandard System.Globilization System.IO MemoryStream CultureInfo</tags>
         <language>en-US</language>
     </metadata>
