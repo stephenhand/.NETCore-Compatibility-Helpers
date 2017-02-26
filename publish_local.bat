@@ -1,7 +1,7 @@
 @echo off
 
 
-set PACKAGE_VERSION=0.1.0.0
+set PACKAGE_VERSION=0.2.1
 
 if not exist publish mkdir publish   || exit /b 1
 
@@ -11,7 +11,7 @@ if %errorlevel% == 0 (
 ) else (
 	echo publishing Handy.DotNETCore-Compatibility.ColorTranslations
 	nuget pack ColorTranslations.nuspec -OutputDirectory  publish -Symbols -Version %PACKAGE_VERSION%
-	nuget push publish/Handy.DotNETCore-Compatibility.ColorTranslations.%PACKAGE_VERSION%.nupkg -s http://localhost:49928/
+	nuget push publish/Handy.DotNETCore-Compatibility.ColorTranslations.%PACKAGE_VERSION%.nupkg -s http://localhost/NuGet-Server/nuget/
 )
 
 nuget list Handy.DotNETCore-Compatibility.StandardLibrary | findstr /e %PACKAGE_VERSION%
@@ -20,5 +20,5 @@ if %errorlevel% == 0 (
 ) else (
 	echo publishing Handy.DotNETCore-Compatibility.StandardLibrary
 	nuget pack StandardLibrary.nuspec -OutputDirectory  publish -Symbols -Version %PACKAGE_VERSION%
-	nuget push publish/Handy.DotNETCore-Compatibility.StandardLibrary.%PACKAGE_VERSION%.nupkg -s http://localhost:49928/
+	nuget push publish/Handy.DotNETCore-Compatibility.StandardLibrary.%PACKAGE_VERSION%.nupkg -s http://localhost/NuGet-Server/nuget/
 )
