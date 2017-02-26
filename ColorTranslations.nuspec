@@ -8,7 +8,8 @@
         <language>en-US</language>
     </metadata>
     <files>
-        <file src="src\ColorTranslations\bin\Release\netstandard1.6\ColorTranslations.dll" target="lib\dotnet"/>
+        <file src="src\ColorTranslations\bin\Release\netstandard1.4\ColorTranslations.dll" target="lib\netstandard1.4"/>
+        <file src="src\ColorTranslations\bin\Release_Net2\2.0\ColorTranslations.dll" target="lib\net20"/>
 
 	</files>
 </package>

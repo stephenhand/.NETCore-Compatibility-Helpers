@@ -1,6 +1,10 @@
 ﻿using Handy.DotNETCoreCompatibility.ColourTranslations;
 using NUnit.Framework;
 using System;
+#if NET_STANDARD
+using Assert = NUnit.Framework.Assert;
+using TestAttribute = Xunit.FactAttribute;
+#endif
 
 namespace Handy.DotNETCoreCompatibility.ColourTranslations.UnitTests
 {
@@ -17,6 +21,7 @@ namespace Handy.DotNETCoreCompatibility.ColourTranslations.UnitTests
             Assert.AreEqual(result.B, 0x44);
 
         }
+
         [Test]
         public void Translate_6FigureHexVal_CaseInsensitive()
         {
