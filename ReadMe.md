@@ -4,6 +4,10 @@ It will include some classes intended to provide functionality present in the .N
 
 It will also provide some adapter classes to try and present a consistent API for some functionality that is implemented differently in the 2 systems, useful when you need to maintain code that must be built target both platforms.
 
+The package can be installed from NuGet 
+
+    Install-Package Handy.DotNETCore-Compatibility.StandardLibrary
+
 ColorTranslations.dll
 -----------------
 
